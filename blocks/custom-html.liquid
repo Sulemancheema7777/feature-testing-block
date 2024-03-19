@@ -1,0 +1,21 @@
+<div class="custom-html-container">
+    {{block.settings.html}}
+</div>
+{%  schema  %} 
+{
+    "name":"custom-html",
+    "class":"custom-html",
+    "settings":[
+        {
+            "type":"textarea",
+            "id":"html",
+            "label":"Custom Html"
+        }
+    ],
+    "presets": [
+        {
+            "name":"custom-html"
+        }
+    ]
+}
+ {% endschema %} 
